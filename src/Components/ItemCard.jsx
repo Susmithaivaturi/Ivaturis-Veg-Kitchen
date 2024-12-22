@@ -41,7 +41,7 @@ function ItemCard({ item, addToCart }) {
               >
                  <strong>-</strong>
               </button>
-              <div className=" border-top text-white flex-grow-1 rounded-1 text-center"style={{background: "rgb(183, 131, 34)"}}><strong>{quantity}</strong></div>
+              <div className=" border-top text-white flex-grow-1 rounded-1 text-center"style={{background: "#B78322"}}><strong>{quantity}</strong></div>
               <button
                 className="btn btn-outline-secondary border border-dark btn-sm rounded" style={{fontSize:"20px",lineHeight:"1"}}
                 onClick={increaseQuantity}
