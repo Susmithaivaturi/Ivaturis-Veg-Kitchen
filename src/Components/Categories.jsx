@@ -1,20 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Categories.css';
 
 function Categories() {
   return (
-    <div
-      className=" my-5 position-fixed" 
-      style={{
-        zIndex: 1040,
-        top: '70px', 
-        left: 0,    
-        right: 0,  
-        width: '100%', 
-        background: "#f8f9fa",
-      }}
-    >
-      <h2 className="text-center mb-4" >Explore Our Categories</h2>
+    <div className="categories-nav">
+      <h2 className="text-center mb-4">Explore Our Categories</h2>
 
       {/* Bootstrap Navigation */}
       <nav className="nav justify-content-center">

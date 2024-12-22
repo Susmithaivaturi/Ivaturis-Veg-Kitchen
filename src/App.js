@@ -12,7 +12,7 @@ import Curries from "./Components/Curries";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/Ivaturis-Veg-Kitchen">
         <Navbar />
         <Categories />
         <Routes>

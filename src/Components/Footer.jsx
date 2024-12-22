@@ -11,7 +11,7 @@ function Footer() {
           <div className="row">
             {/* Grid column */}
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <img src="/images/logo.png" alt="Logo" style={{height:"200px"}} />
+              <img src="/Ivaturis-Veg-Kitchen/images/logo.png" alt="Logo" style={{height:"200px"}} />
             </div>
             {/* Grid column */}
 

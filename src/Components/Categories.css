@@ -1,0 +1,53 @@
+/* Custom CSS for Categories */
+.categories-nav {
+    z-index: 1040;
+    top: 80px; /* Adjusted to sit below the navbar */
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #f8f9fa;
+    position: fixed;
+}
+  
+.categories-nav h2 {
+    margin-bottom: 1.5rem;
+}
+  
+.nav-link {
+    color: #6c757d;
+    font-size: 1.2rem;
+}
+
+/* Small screens (mobile) */
+@media (max-width: 767px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+  
+    .categories-nav {
+        top: 100px; /* Adjusted for mobile screen */
+        margin: 0;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px){
+    .nav-link {
+        font-size: 1.1rem;
+    }
+  
+    .categories-nav {
+        top: 100px; /* Adjusted for iPad Mini and iPad Pro */
+    }
+}
+
+/* Large screens (desktop) */
+@media (min-width: 834px) {
+    .nav-link {
+        font-size: 1.2rem;
+    }
+  
+    .categories-nav {
+        top: 120px; /* Adjusted for desktop screen */
+    }
+}

@@ -17,7 +17,7 @@ function Navbar() {
         {/* Logo on the right side */}
         <div className="logo-container">
           <img
-            src="/images/logo.png"
+            src="/Ivaturis-Veg-Kitchen/images/logo.png"
             alt="Logo"
             className="logo-img"
           />
