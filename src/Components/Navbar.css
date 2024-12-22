@@ -1,0 +1,96 @@
+/* General Navbar Styles */
+.custom-navbar {
+  /* background: linear-gradient(to bottom, #28a745, #81c784);  */
+  background:#3bab5a;
+  height: 120px; /* Default navbar height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Navbar brand text */
+.navbar-brand {
+  font-size: 50px; /* Default font size */
+  font-family: 'Roboto';
+  color: white;
+}
+
+/* Text and icons below the brand */
+.navbar span {
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+/* Responsive adjustments for navbar height and font sizes */
+@media (max-width: 768px) {
+  .custom-navbar {
+    height: 100px; /* Adjust height for tablets */
+  }
+
+  .navbar-brand {
+    font-size: 35px; /* Adjust font size for tablets */
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 22px; /* Adjust font size for phones */
+    text-align: left;
+    margin-left:0px ;
+  }
+  .navbar span {
+    transform: translateX(-10px);
+  }
+}
+
+/* Logo Styles */
+.logo-container {
+  position: absolute;
+  right: 10px; /* Position on the right */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.logo-img {
+  height: 120px; /* Default logo height */
+  width: 150px; /* Default logo width */
+  object-fit: contain; /* Ensure the logo is scaled correctly */
+}
+
+/* Responsive adjustments for the logo */
+@media (max-width: 768px) {
+  .logo-img {
+    height: 80px; /* Adjust height for tablets */
+    width: 100px; /* Adjust width for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    height: 80px; /* Adjust height for phones */
+    width: 60px; /* Adjust width for phones */
+    right: 0px;
+  }
+}
+
+body {
+  padding-top: 120px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 100px; 
+  }
+}
+
+/* ItemCard */
+.quantity-color {
+  background: #c0720d; 
+}

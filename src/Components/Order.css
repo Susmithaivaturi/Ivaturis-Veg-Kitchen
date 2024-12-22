@@ -1,0 +1,52 @@
+/* Celebration Animation Styles */
+.celebration-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .celebrate {
+    display: block;
+    animation: celebrateAnimation 2s ease-in-out;
+  }
+  
+  @keyframes celebrateAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.5);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+  
+  .celebration-container::after {
+    content: "🎉🎉🎉";
+    font-size: 3rem;
+    color: gold;
+    text-align: center;
+    animation: celebrationTextAnimation 2s ease-in-out;
+  }
+  
+  @keyframes celebrationTextAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+  }
+ 
