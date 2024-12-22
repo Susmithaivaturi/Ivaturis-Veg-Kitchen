@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ivaturis-Veg-Kitchen/static/css/main.7b5e85ab.css",
+    "main.js": "/Ivaturis-Veg-Kitchen/static/js/main.7ae679bc.js",
+    "static/js/488.e152dfe5.chunk.js": "/Ivaturis-Veg-Kitchen/static/js/488.e152dfe5.chunk.js",
+    "index.html": "/Ivaturis-Veg-Kitchen/index.html",
+    "main.7b5e85ab.css.map": "/Ivaturis-Veg-Kitchen/static/css/main.7b5e85ab.css.map",
+    "main.7ae679bc.js.map": "/Ivaturis-Veg-Kitchen/static/js/main.7ae679bc.js.map",
+    "488.e152dfe5.chunk.js.map": "/Ivaturis-Veg-Kitchen/static/js/488.e152dfe5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b5e85ab.css",
+    "static/js/main.7ae679bc.js"
+  ]
+}
